@@ -36,6 +36,7 @@ module.exports = defineConfig({
         "Access-Control-Allow-Origin": "*",
       },
       allowedHosts: "all",
+      https: true,
     },
   },
   filenameHashing: false,
